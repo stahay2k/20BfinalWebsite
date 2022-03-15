@@ -1,0 +1,213 @@
+
+body {
+    text-align: center;
+    background-color: #181D31;
+}
+
+div{
+  padding-bottom: 1.5rem;
+}
+.titleDiv{
+  padding-bottom: 1.5rem;
+
+}
+.descriptionDiv{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.objectivesDiv{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.instrumentsDiv{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.bottom-container {
+  background-color: #E6DDC4;
+  color: #181D31;
+  padding-top: 2rem;
+}
+
+.finalText{
+  color: #181D31;
+}
+
+a:link {
+  color: #BB6464;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #BB6464;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #678983;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #BB6464;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.centered-table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered-table:hover{
+  width: 100%;
+  height: 200%;
+}
+
+.insName{
+  color: #E6DDC4;
+}
+
+ul{
+  list-style-position: inside;
+}
+
+.bullets{
+  padding-top: 0.5rem;
+  color: #E6DDC4;
+}
+
+h1 {
+  color: #E6DDC4;
+  font-family: 'The Nautigal', cursive;
+  margin: 0;
+  font-size: 5rem;
+  /* USE rem for dynamic sizing, 1rem = 16px*/
+  margin-top: 30px;
+  line-height: 1.25;
+}
+
+h1:hover{
+  color: #D9534F;
+  font-family: 'The Nautigal', cursive;
+  margin: 0;
+  font-size: 5rem;
+  /* USE rem for dynamic sizing, 1rem = 16px*/
+  margin-top: 30px;
+  line-height: 1.25;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #E6DDC4;
+}
+h2:hover{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #D9534F;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #E6DDC4;
+}
+
+h3:hover{
+  font-family: 'Montserrat', sans-serif;
+  color: #D9534F;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  top: 2000px;
+  width: 20%;
+}
+hr:hover{
+  border-style: none;
+  border-top-style:dashed;
+  border-color: CD1818;
+  border-width: 20px;
+  top: 2000px;
+  width: 20%;
+}
+
+
+.ngrTelescope{
+  /* position: absolute; */
+  animation: fadein ease;
+  width: 12.5rem;
+  height: 12.5rem;
+  left: 3.125rem;
+  top: 1.25rem;
+  opacity:0.8;
+}
+
+
+.ngrTelescope:hover {
+  opacity:1;
+}
+
+.nasa{
+  /* position: absolute; */
+  width: 17rem;
+  height: 12.5rem;
+  right: 3rem;
+  top: 1.25rem;
+  opacity:0.8;
+}
+
+.nasa:hover{
+  opacity: 1;
+}
+
+.pie{
+  width: 40rem;
+  height: 20rem;
+  right: 3rem;
+  top: 1.25rem;
+  opacity:0.8;
+}
+.pie:hover{
+  opacity: 1;
+}
+
+
+.wavelength{
+  width: 40rem;
+  height: 30rem;
+  right: 3rem;
+  top: 1.25rem;
+  opacity:0.8;
+}
+.wavelength:hover{
+  opacity: 1;
+}
+
+.fov{
+  opacity:0.8;
+}
+
+.fov:hover{
+  opacity: 1;
+}
+
+.timeline{
+  opacity:0.8
+}
+
+.timeline:hover{
+  opacity: 1;
+}
+
+.timegif{
+  width: 80%;
+  height: 120%;
+}
